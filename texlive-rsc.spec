@@ -57,6 +57,7 @@ unify the writing of articles with a chemistry content.
 #- source
 %doc %{_texmfdistdir}/source/latex/rsc/rsc.dtx
 %doc %{_texmfdistdir}/source/latex/rsc/rsc.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -67,3 +68,5 @@ unify the writing of articles with a chemistry content.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
