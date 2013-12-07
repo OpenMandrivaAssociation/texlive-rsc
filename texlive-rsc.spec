@@ -6,7 +6,7 @@
 # catalog-version 3.1e
 Name:		texlive-rsc
 Version:	3.1e
-Release:	3
+Release:	4
 Summary:	BibTeX style for use with RSC journals
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/rsc
