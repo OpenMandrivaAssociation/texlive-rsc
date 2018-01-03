@@ -1,12 +1,6 @@
-# revision 20942
-# category Package
-# catalog-ctan /macros/latex/contrib/rsc
-# catalog-date 2011-01-05 00:05:34 +0100
-# catalog-license gpl
-# catalog-version 3.1e
 Name:		texlive-rsc
-Version:	3.1e
-Release:	10
+Version:	3.1f
+Release:	1
 Summary:	BibTeX style for use with RSC journals
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/rsc
@@ -37,16 +31,11 @@ unify the writing of articles with a chemistry content.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/bibtex/bst/rsc/angew.bst
-%{_texmfdistdir}/bibtex/bst/rsc/rsc.bst
-%{_texmfdistdir}/tex/latex/rsc/rsc.sty
-%doc %{_texmfdistdir}/doc/latex/rsc/README
-%doc %{_texmfdistdir}/doc/latex/rsc/rsc-demo.tex
-%doc %{_texmfdistdir}/doc/latex/rsc/rsc.bib
-%doc %{_texmfdistdir}/doc/latex/rsc/rsc.pdf
+%{_texmfdistdir}/bibtex/bst/rsc
+%{_texmfdistdir}/tex/latex/rsc
+%doc %{_texmfdistdir}/doc/latex/rsc
 #- source
-%doc %{_texmfdistdir}/source/latex/rsc/rsc.dtx
-%doc %{_texmfdistdir}/source/latex/rsc/rsc.ins
+%doc %{_texmfdistdir}/source/latex/rsc
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,17 +46,3 @@ unify the writing of articles with a chemistry content.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.1e-2
-+ Revision: 755728
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.1e-1
-+ Revision: 719466
-- texlive-rsc
-- texlive-rsc
-- texlive-rsc
-- texlive-rsc
-
