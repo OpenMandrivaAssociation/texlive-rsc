@@ -1,6 +1,6 @@
 Name:		texlive-rsc
 Version:	41923
-Release:	1
+Release:	2
 Summary:	BibTeX style for use with RSC journals
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/rsc
