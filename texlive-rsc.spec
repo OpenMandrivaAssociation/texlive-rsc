@@ -3,7 +3,7 @@ Version:	41923
 Release:	2
 Summary:	BibTeX style for use with RSC journals
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/rsc
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/rsc
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/rsc.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/rsc.doc.r%{version}.tar.xz
